@@ -2,7 +2,7 @@ package cn.chapter1.exo;
 
 import edu.princeton.cs.algs4.*;
 
-public class Ex1_1_3_3NumsEqueal {
+public class Ex1_1_3_3NumsEqual {
 
 	public static void main(String[] args) {
 
