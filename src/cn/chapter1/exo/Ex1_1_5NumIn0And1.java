@@ -1,4 +1,4 @@
-package cn.chapter1;
+package cn.chapter1.exo;
 
 import edu.princeton.cs.algs4.*;
 

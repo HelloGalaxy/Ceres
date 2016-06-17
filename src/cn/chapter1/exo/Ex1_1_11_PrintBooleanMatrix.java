@@ -1,4 +1,4 @@
-package cn.chapter1;
+package cn.chapter1.exo;
 
 import edu.princeton.cs.algs4.*;
 
@@ -23,7 +23,7 @@ public class Ex1_1_11_PrintBooleanMatrix {
 	}
 
 	public static void printBoolArray(boolean[][] values) {
-		
+
 		StdOut.print("  ");
 		for (int i = 0; i < values[0].length; i++) {
 			StdOut.print(i + " ");
