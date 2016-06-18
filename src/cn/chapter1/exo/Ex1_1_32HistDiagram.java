@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 public class Ex1_1_32HistDiagram {
 
-	static int randomNumCount = 10;
+	static int randomNumCount = 100;
 
 	public static void main(String[] args) {
 		double[] array = new double[randomNumCount];
@@ -23,15 +23,16 @@ public class Ex1_1_32HistDiagram {
 		DrawDiagram(result);
 	}
 
-	static int n = 2;
+	static int n = 10;
 	static double l = 2.0;
-	static double r = 6.0;
+	static double r = 8.0;
 
 	static int[] count(double l, double r, int n, double[] array) {
 		int[] result = new int[n + 2];
-
+		double d = (r - l) / n;
+		
 		for (int i = 0; i < array.length; i++) {
-			int index = (int) ((array[i] - l) / n);
+			int index = (int) ((array[i] - l) / d);
 			if (index < 0)
 				result[0]++;
 			else if (index < n)
@@ -47,7 +48,7 @@ public class Ex1_1_32HistDiagram {
 		for (int i = 0; i < array.length; i++) {
 			double x = 1.0 * i / array.length;
 			double y = array[i] / 50.0;
-			StdDraw.filledRectangle(x, y, 0.01 / array.length,  y);
+			StdDraw.filledRectangle(x, y, 0.01 / array.length, y);
 		}
 	}
 }

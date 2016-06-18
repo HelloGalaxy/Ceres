@@ -1,4 +1,4 @@
-package cn.helper;
+package cn.chapter1.exo;
 
 public class Point {
 	public double x;

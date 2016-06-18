@@ -2,7 +2,6 @@ package cn.chapter1.exo;
 
 import java.util.ArrayList;
 
-import cn.helper.Point;
 import edu.princeton.cs.algs4.*;
 
 public class Ex1_1_31RandomLink {
