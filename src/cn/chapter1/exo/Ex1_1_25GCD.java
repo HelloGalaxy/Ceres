@@ -14,7 +14,7 @@ public class Ex1_1_25GCD {
 		StdOut.print("GCD: " + gcd(num1, num2));
 	}
 
-	static int gcd(int a, int b) {
+	public static int gcd(int a, int b) {
 		int max = Math.max(a, b);
 		int min = Math.min(a, b);
 		if (min == 0)

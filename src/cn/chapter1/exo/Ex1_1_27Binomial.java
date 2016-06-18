@@ -12,8 +12,8 @@ public class Ex1_1_27Binomial {
 		StdOut.println("Iteration: " + binomialArray(n, k, p));
 	}
 
-	static int n = 2;
-	static int k = 2;
+	static int n =5;
+	static int k = 3;
 	static double p = 0.1;
 	static double[][] x = new double[n + 1][k + 1];
 

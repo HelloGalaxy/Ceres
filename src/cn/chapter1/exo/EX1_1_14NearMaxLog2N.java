@@ -2,7 +2,7 @@ package cn.chapter1.exo;
 
 import edu.princeton.cs.algs4.*;
 
-public class EX_1_1_14NearMaxLog2N {
+public class EX1_1_14NearMaxLog2N {
 
 	public static void main(String[] args) {
 		StdOut.print("Pls, input N: ");
